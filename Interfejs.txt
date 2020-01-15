@@ -1,0 +1,55 @@
+komenda:
+info
+odpowiedz:
+(C) 2020 Majkel Dzordan
+
+komenda:
+menu
+odpowiedz: {lista zrealizowanych komend}
+menu ok
+
+komenda:
+lcd "..."
+odpowiedz: {na wyswietlaczu pokazuje sie tekst ...}
+lcd ok
+
+komenda: {na wyswietlaczu pokazuje sie tekst ..., kolor ustalany jest na .. .. ..}
+lcd "..." kolor .. .. .. 
+odpowiedz:
+lcd ok
+
+komenda:
+dioda ..
+odpowiedz: {dioda miga .. razy na sekunde}
+dioda ok
+
+komenda:
+dioda stop
+odpowiedz: {dioda nie swieci}
+dioda ok
+
+komenda:
+dzwiek ...
+odpowiedz: {odtwarzany jest dzwiek o czestotliwosci ...}
+dzwiek ok
+
+komenda:
+dzwiek ... razy ..
+odpowiedz: {odtwarzany jest dzwiek o czestotliwosci ... razy ..}
+dzwiek ok
+
+
+komenda:
+dzwiek ... razy .. pauza ..
+odpowiedz: {odtwarzany jest dzwiek o czestotliwosci ... razy .. z pauza ... miedzy nimi}
+dzwiek ok
+
+komenda:
+dzwiek stop
+odpowiedz: {nastepuje cisza}
+dzwiek ok
+
+komenda:
+temp (C|K)
+odpowiedz: {odczyt temaperatury w Celsjuszach jesli "C", w Kelwinach jesli "K"}
+temp ...
